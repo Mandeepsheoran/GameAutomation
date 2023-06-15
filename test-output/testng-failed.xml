@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="org.igt.desktopapptest.NotepadTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="notepadHelpTest"/>
+          <include name="beforeTest"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- org.igt.desktopapptest.NotepadTest -->
+      <class name="org.igt.utils.ExcelDataReadWithPOI">
+        <methods>
+          <include name="samplegetdata"/>
+        </methods>
+      </class> <!-- org.igt.utils.ExcelDataReadWithPOI -->
+      <class name="org.igt.webtest.BrowserAlertAuthorizationTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="authorizationTest"/>
+        </methods>
+      </class> <!-- org.igt.webtest.BrowserAlertAuthorizationTest -->
+      <class name="org.igt.visualtest.ApplitoolEyesWebTest">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="setUp"/>
+          <include name="eyesFirstTestWeb"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- org.igt.visualtest.ApplitoolEyesWebTest -->
+      <class name="org.igt.webaccessibilitytest.AccessibilityScan">
+        <methods>
+          <include name="setUp"/>
+          <include name="accessibilityTest"/>
+          <include name="tearDown"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- org.igt.webaccessibilitytest.AccessibilityScan -->
+      <class name="org.igt.webtest.NetworkInterceptTest">
+        <methods>
+          <include name="getNetworkLogsTest"/>
+        </methods>
+      </class> <!-- org.igt.webtest.NetworkInterceptTest -->
+      <class name="org.igt.webtest.SetBrowserGeoLocationTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="changeGeoLocation"/>
+        </methods>
+      </class> <!-- org.igt.webtest.SetBrowserGeoLocationTest -->
+      <class name="org.igt.webtest.LoadInsecureWebsiteTest">
+        <methods>
+          <include name="openInsecureWebsiteTest"/>
+        </methods>
+      </class> <!-- org.igt.webtest.LoadInsecureWebsiteTest -->
+      <class name="org.igt.webtest.WebPageZoomTest">
+        <methods>
+          <include name="pageZoomInZoomOutTest"/>
+        </methods>
+      </class> <!-- org.igt.webtest.WebPageZoomTest -->
+      <class name="org.igt.apitest.PostTest">
+        <methods>
+          <include name="postDetails"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- org.igt.apitest.PostTest -->
+      <class name="org.igt.dashboardtest.ReportPortalWebTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="rpDashboardTest"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- org.igt.dashboardtest.ReportPortalWebTest -->
+      <class name="org.igt.monkeytesting.GremlinsTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="gremlinsScrollerAndToucherTest"/>
+          <include name="gremlinsTyperTest"/>
+          <include name="tearDown"/>
+          <include name="allSpeciesTest"/>
+          <include name="gremlinsDistributionTest"/>
+          <include name="gremlinsBySpeciesTest"/>
+          <include name="gremlinsClickerTest"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- org.igt.monkeytesting.GremlinsTest -->
+      <class name="org.igt.webtest.TestInSlowNetworkMode">
+        <methods>
+          <include name="slowNetworkTest"/>
+        </methods>
+      </class> <!-- org.igt.webtest.TestInSlowNetworkMode -->
+      <class name="org.igt.visualtest.ApplitoolEyesMobileTest">
+        <methods>
+          <include name="eyesFirstTestInMobile"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- org.igt.visualtest.ApplitoolEyesMobileTest -->
+      <class name="org.igt.webtest.TestInOfflineNetworkMode">
+        <methods>
+          <include name="offlineModeTest"/>
+        </methods>
+      </class> <!-- org.igt.webtest.TestInOfflineNetworkMode -->
+      <class name="org.igt.webtest.PrintToPDFTest">
+        <methods>
+          <include name="getPDFForWebPage"/>
+        </methods>
+      </class> <!-- org.igt.webtest.PrintToPDFTest -->
+      <class name="org.igt.webtest.ResponsiveModeTest">
+        <methods>
+          <include name="iphoneDimensionInBrowserTest"/>
+        </methods>
+      </class> <!-- org.igt.webtest.ResponsiveModeTest -->
+      <class name="org.igt.aihealing.HealeniumWebTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="autoHealingTest"/>
+          <include name="beforeTest"/>
+          <include name="aiHealingDisabled"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- org.igt.aihealing.HealeniumWebTest -->
+      <class name="org.igt.apitest.GetTest">
+        <methods>
+          <include name="getUserDetails"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- org.igt.apitest.GetTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

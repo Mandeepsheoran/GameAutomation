@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-06-15T16:08:31 AEST" name="Automation-Test-Suite" finished-at="2023-06-15T16:09:02 AEST" duration-ms="31699">
+    <groups>
+    </groups>
+    <test started-at="2023-06-15T16:08:31 AEST" name="Automation-Test-Suite" finished-at="2023-06-15T16:09:02 AEST" duration-ms="31699">
+      <class name="org.igt.gametesting.GameAutomation">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:org.igt.gametesting.GameAutomation@1517f633]" started-at="2023-06-15T16:08:32 AEST" name="setUp" finished-at="2023-06-15T16:08:40 AEST" duration-ms="8101" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="gameAuto()[pri:0, instance:org.igt.gametesting.GameAutomation@1517f633]" started-at="2023-06-15T16:08:40 AEST" name="gameAuto" description="Play 1024 web game" finished-at="2023-06-15T16:09:01 AEST" duration-ms="21544" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- gameAuto -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.igt.gametesting.GameAutomation@1517f633]" started-at="2023-06-15T16:09:02 AEST" name="tearDown" finished-at="2023-06-15T16:09:02 AEST" duration-ms="710" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- org.igt.gametesting.GameAutomation -->
+    </test> <!-- Automation-Test-Suite -->
+  </suite> <!-- Automation-Test-Suite -->
+</testng-results>
